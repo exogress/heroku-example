@@ -1,0 +1,14 @@
+---
+version: 1.0.0
+revision: 1
+name: flask-heroku-example
+mount-points:
+  heroku-example:
+    handlers:
+      backend:
+        type: proxy
+        upstream: flask
+        priority: 10
+upstreams:
+  flask:
+    port: 5000
