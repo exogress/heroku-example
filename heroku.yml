@@ -1,3 +1,8 @@
 build:
   docker:
     web: Dockerfile
+  config:
+    EXG_ACCESS_KEY_ID: 01EQNGFEWKKYHZ9NX2NTM92QDX
+    EXG_SECRET_ACCESS_KEY: 2eoAYVjpjtztomf7mL94fJeZVS5TSkvEDSYB97v1CQxDDyfeg5xfBUMwFMM2ZcQamqPjJzybju1vu8jYUnVp2YXA4RbbLBWrRLQnQaoF7W63pFqwbdKAC9cuwcMX2GYg7oecfYUYKSVwdq7pfoVXxkxe9g7ubYWMwSnHA8JQ6EDbQesdw3FLPz6cynmmB
+    EXG_PROJECT: heroku-example
+    EXG_ACCOUNT: glebpom
